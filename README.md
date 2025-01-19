@@ -1,5 +1,14 @@
-# Schaapje
-Schaapje - A Dutch Small Language Model (SLM)
+# Schaapje - A Dutch Small Language Model (SLM)
+
+Schaapje is a small yet powerfull Dutch Small Language Model.
+
+Why Schaapje? Well ... for Dutch there are already Language Models with Geitje, Fietje, Llama, ChocoLlama etc. available .... so why not add a Schaapje to the Dutch family of optimized SLM's and LLM's ;-)
+
+It is based on the IBM Granite 3.0 2B Instruct foundation model with roughly 2.5 Billion parameters.
+
+With continual pretraining on roughly 2.4 Billion Dutch tokens, SFT training and DPO alignment the model has a good performance in Dutch conversations, Instruction following and RAG applications.
+
+The models and code are all available and provide good starting points for your own applications or further finetuning.
 
 ## Installation
 
@@ -44,3 +53,7 @@ The dataset used for DPO training is the Dutch DPO dataset:
 
 The Jupyter Notebook used for DPO training: 
 - [Schaapje-2B-Chat-DPO-V1.0](Schaapje-2B-Chat-DPO-V1.0.ipynb)
+
+### Evaluation
+
+<< TODO >>
