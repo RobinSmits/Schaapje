@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/sheep.png" alt="Schaapje logo" width="750"/>
+</p>
+
 # Schaapje - A Dutch Small Language Model (SLM)
 
 Schaapje is a small yet powerfull Dutch Small Language Model.
