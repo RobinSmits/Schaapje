@@ -1,9 +1,700 @@
-
-{"dataset": "sst5", "task": "sentiment-classification", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"mcc": 0.6441750600257777, "macro_f1": 0.6631384949788502}, {"mcc": 0.6527642607872987, "macro_f1": 0.6963614395896535}, {"mcc": 0.6541298729629789, "macro_f1": 0.6406493089038894}, {"mcc": 0.5977175178313271, "macro_f1": 0.6483009079118028}, {"mcc": 0.6926362705301116, "macro_f1": 0.6616878290791335}, {"mcc": 0.6487935935747162, "macro_f1": 0.655528313572254}, {"mcc": 0.5980395312815252, "macro_f1": 0.6325130599336278}, {"mcc": 0.643696652363357, "macro_f1": 0.667725163583944}, {"mcc": 0.6331134783288229, "macro_f1": 0.6297123650508148}, {"mcc": 0.6240874374455914, "macro_f1": 0.6905934942436588}], "total": {"test_mcc": 63.89153675131507, "test_mcc_se": 1.738276680321611, "test_macro_f1": 65.8621037684763, "test_macro_f1_se": 1.3883394154155997}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "conll-en", "task": "named-entity-recognition", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"micro_f1_no_misc": 0.5684860968074149, "micro_f1": 0.43710691823899367}, {"micro_f1_no_misc": 0.5251601097895701, "micro_f1": 0.4177671068427371}, {"micro_f1_no_misc": 0.5674603174603174, "micro_f1": 0.4740834386852086}, {"micro_f1_no_misc": 0.6229221347331583, "micro_f1": 0.556401384083045}, {"micro_f1_no_misc": 0.5903165735567971, "micro_f1": 0.46143617021276595}, {"micro_f1_no_misc": 0.4482412060301508, "micro_f1": 0.3798449612403101}, {"micro_f1_no_misc": 0.4651685393258427, "micro_f1": 0.39497041420118345}, {"micro_f1_no_misc": 0.6359360301034808, "micro_f1": 0.5073859987154786}, {"micro_f1_no_misc": 0.5311049210770659, "micro_f1": 0.436046511627907}, {"micro_f1_no_misc": 0.5581395348837209, "micro_f1": 0.4816010329244674}], "total": {"test_micro_f1_no_misc": 55.129354637675185, "test_micro_f1_no_misc_se": 3.7842302925073894, "test_micro_f1": 45.466439367720966, "test_micro_f1_se": 3.296333140941632}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "scala-en", "task": "linguistic-acceptability", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"mcc": 0.1322334377630526, "macro_f1": 0.5481059126767164}, {"mcc": 0.3280802298518049, "macro_f1": 0.6638778625954198}, {"mcc": 0.21568627450980393, "macro_f1": 0.607843137254902}, {"mcc": 0.31722063428725766, "macro_f1": 0.6536924306708479}, {"mcc": 0.09524719499568955, "macro_f1": 0.5453371221906484}, {"mcc": 0.30139920735135817, "macro_f1": 0.63068431286458}, {"mcc": 0.16180395064015182, "macro_f1": 0.5801799316443668}, {"mcc": 0.2263182597399162, "macro_f1": 0.6115683479700216}, {"mcc": 0.2033982049954206, "macro_f1": 0.5976501106279087}, {"mcc": 0.2592230350848087, "macro_f1": 0.6284470246734397}], "total": {"test_mcc": 22.406104292192644, "test_mcc_se": 4.894321627985603, "test_macro_f1": 60.67386193168851, "test_macro_f1_se": 2.4907902886042343}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "squad", "task": "reading-comprehension", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"f1": 82.68941164767159, "em": 70.05988023952096}, {"f1": 85.5208773264277, "em": 73.49397590361446}, {"f1": 86.1868102848495, "em": 74.54545454545455}, {"f1": 82.72948824463977, "em": 72.72727272727273}, {"f1": 84.2767145665309, "em": 72.12121212121212}, {"f1": 78.90277887467846, "em": 66.24203821656052}, {"f1": 81.77898234579122, "em": 66.46341463414635}, {"f1": 83.55022075712536, "em": 69.81132075471699}, {"f1": 79.46378039852304, "em": 68.125}, {"f1": 85.42405579170284, "em": 75.0}], "total": {"test_f1": 83.05231202379403, "test_f1_se": 1.5356057925473483, "test_em": 70.85895691424987, "test_em_se": 1.9882494739007948}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "cnn-dailymail", "task": "summarization", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"bertscore": 0.6858322704210877, "rouge_l": 0.2062034383313684}, {"bertscore": 0.686343872686848, "rouge_l": 0.2129543476745226}, {"bertscore": 0.6819700193591416, "rouge_l": 0.20083515619167935}, {"bertscore": 0.6901805037632585, "rouge_l": 0.2103356044883792}, {"bertscore": 0.6848723636940122, "rouge_l": 0.2077149809778135}, {"bertscore": 0.6863006681669503, "rouge_l": 0.2104465151645179}, {"bertscore": 0.6855689489748329, "rouge_l": 0.21194222182632924}, {"bertscore": 0.6890118746086955, "rouge_l": 0.2106041146117423}, {"bertscore": 0.6849637490231544, "rouge_l": 0.21186057987618695}, {"bertscore": 0.6918562091886997, "rouge_l": 0.22103785663101094}], "total": {"test_bertscore": 68.66900479886681, "test_bertscore_se": 0.1790303046849482, "test_rouge_l": 21.039348157735507, "test_rouge_l_se": 0.32043630321345606}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "mmlu", "task": "knowledge", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"mcc": 0.346077603707115, "accuracy": 0.5078125}, {"mcc": 0.3531994778489847, "accuracy": 0.51953125}, {"mcc": 0.4539200842557198, "accuracy": 0.5859375}, {"mcc": 0.38789576445802976, "accuracy": 0.53515625}, {"mcc": 0.3921343330158885, "accuracy": 0.54296875}, {"mcc": 0.36834375218872306, "accuracy": 0.53515625}, {"mcc": 0.35294969640960056, "accuracy": 0.51171875}, {"mcc": 0.30197395141011724, "accuracy": 0.47265625}, {"mcc": 0.3918744725404185, "accuracy": 0.54296875}, {"mcc": 0.29825014020899426, "accuracy": 0.4765625}], "total": {"test_mcc": 36.46619276043591, "test_mcc_se": 2.8455565841312698, "test_accuracy": 52.3046875, "test_accuracy_se": 2.0778723347862686}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "hellaswag", "task": "common-sense-reasoning", "dataset_languages": ["en"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"mcc": 0.3345392060016482, "accuracy": 0.453125}, {"mcc": 0.2599387044817538, "accuracy": 0.39453125}, {"mcc": 0.27816095524205603, "accuracy": 0.40234375}, {"mcc": 0.3510781177104222, "accuracy": 0.48046875}, {"mcc": 0.247954895641369, "accuracy": 0.3984375}, {"mcc": 0.3132828163867401, "accuracy": 0.44921875}, {"mcc": 0.28411017078434503, "accuracy": 0.41015625}, {"mcc": 0.3301334194483741, "accuracy": 0.43359375}, {"mcc": 0.31297195022446406, "accuracy": 0.4140625}, {"mcc": 0.3399556003837929, "accuracy": 0.46875}], "total": {"test_mcc": 30.521258363049657, "test_mcc_se": 2.2080761757566854, "test_accuracy": 43.046875, "test_accuracy_se": 1.91932955868999}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
-{"dataset": "speed", "task": "speed", "dataset_languages": ["ab", "aa", "af", "sq", "am", "ar", "an", "hy", "as", "av", "ae", "ay", "az", "bm", "ba", "eu", "be", "bn", "bi", "bs", "br", "bg", "my", "ca", "ch", "ce", "ny", "zh", "cu", "cv", "kw", "co", "cr", "hr", "cs", "da", "dv", "nl", "dz", "en", "eo", "et", "ee", "fo", "fj", "fi", "fr", "fy", "ff", "gd", "gl", "lg", "ka", "de", "el", "kl", "gn", "gu", "ht", "ha", "he", "hz", "hi", "ho", "hu", "is", "io", "ig", "id", "ia", "ie", "iu", "ik", "ga", "it", "ja", "kn", "kr", "ks", "kk", "km", "ki", "rw", "ky", "kv", "kg", "ko", "kj", "ku", "lo", "la", "lv", "li", "ln", "lt", "lu", "lb", "mk", "mg", "ms", "ml", "mt", "gv", "mi", "mr", "mh", "mn", "na", "nv", "nd", "nr", "ng", "ne", "no", "nb", "nn", "ii", "oc", "oj", "or", "om", "os", "pi", "ps", "fa", "pl", "pt", "pa", "qu", "ro", "rm", "rn", "ru", "se", "sm", "sg", "sa", "sc", "sr", "sn", "sd", "si", "sk", "sl", "so", "st", "es", "su", "sw", "ss", "sv", "tl", "ty", "tg", "ta", "tt", "te", "th", "bo", "ti", "to", "ts", "tn", "tr", "tk", "tw", "ug", "uk", "ur", "uz", "ve", "vi", "vo", "wa", "cy", "wo", "xh", "yi", "yo", "za", "zu"], "model": "robinsmits/Schaapje-2B-Chat-V1.0", "results": {"raw": [{"test_speed": 647.52, "test_speed_short": 74.8}, {"test_speed": 1195.68, "test_speed_short": 139.8}, {"test_speed": 1584.61, "test_speed_short": 269.12}, {"test_speed": 2048.4900000000002, "test_speed_short": 333.36}, {"test_speed": 2299.0499999999997, "test_speed_short": 397.75}, {"test_speed": 2488.11, "test_speed_short": 520.98}, {"test_speed": 2862.53, "test_speed_short": 584.32}, {"test_speed": 3023.79, "test_speed_short": 646.81}, {"test_speed": 3142.38, "test_speed_short": 709.8}, {"test_speed": 3182.54, "test_speed_short": 770.95}], "total": {"test_speed": 2247.4700000000003, "test_speed_se": 541.1965879490306, "test_speed_short": 444.76899999999995, "test_speed_short_se": 148.71007864882088}}, "num_model_parameters": 2533531648, "max_sequence_length": 4096, "vocabulary_size": 49155, "generative": true, "few_shot": true, "validation_split": true, "scandeval_version": "14.2.0"}
+{
+	"dataset": "sst5",
+	"task": "sentiment-classification",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"mcc": 0.6441750600257777,
+				"macro_f1": 0.6631384949788503
+			},
+			{
+				"mcc": 0.6527642607872987,
+				"macro_f1": 0.6963614395896535
+			},
+			{
+				"mcc": 0.6541298729629789,
+				"macro_f1": 0.6406493089038894
+			},
+			{
+				"mcc": 0.5977175178313271,
+				"macro_f1": 0.6483009079118028
+			},
+			{
+				"mcc": 0.6926362705301116,
+				"macro_f1": 0.6616878290791335
+			},
+			{
+				"mcc": 0.6487935935747162,
+				"macro_f1": 0.655528313572254
+			},
+			{
+				"mcc": 0.5980395312815252,
+				"macro_f1": 0.6325130599336278
+			},
+			{
+				"mcc": 0.643696652363357,
+				"macro_f1": 0.667725163583944
+			},
+			{
+				"mcc": 0.6331134783288229,
+				"macro_f1": 0.6297123650508149
+			},
+			{
+				"mcc": 0.6240874374455914,
+				"macro_f1": 0.6905934942436588
+			}
+		],
+		"total": {
+			"test_mcc": 63.89153675131507,
+			"test_mcc_se": 1.738276680321611,
+			"test_macro_f1": 65.8621037684763,
+			"test_macro_f1_se": 1.3883394154155997
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "conll-en",
+	"task": "named-entity-recognition",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"micro_f1_no_misc": 0.5684860968074149,
+				"micro_f1": 0.43710691823899369
+			},
+			{
+				"micro_f1_no_misc": 0.5251601097895701,
+				"micro_f1": 0.4177671068427371
+			},
+			{
+				"micro_f1_no_misc": 0.5674603174603174,
+				"micro_f1": 0.4740834386852086
+			},
+			{
+				"micro_f1_no_misc": 0.6229221347331583,
+				"micro_f1": 0.556401384083045
+			},
+			{
+				"micro_f1_no_misc": 0.5903165735567971,
+				"micro_f1": 0.46143617021276597
+			},
+			{
+				"micro_f1_no_misc": 0.4482412060301508,
+				"micro_f1": 0.3798449612403101
+			},
+			{
+				"micro_f1_no_misc": 0.4651685393258427,
+				"micro_f1": 0.39497041420118347
+			},
+			{
+				"micro_f1_no_misc": 0.6359360301034808,
+				"micro_f1": 0.5073859987154786
+			},
+			{
+				"micro_f1_no_misc": 0.5311049210770659,
+				"micro_f1": 0.436046511627907
+			},
+			{
+				"micro_f1_no_misc": 0.5581395348837209,
+				"micro_f1": 0.4816010329244674
+			}
+		],
+		"total": {
+			"test_micro_f1_no_misc": 55.129354637675188,
+			"test_micro_f1_no_misc_se": 3.7842302925073896,
+			"test_micro_f1": 45.466439367720969,
+			"test_micro_f1_se": 3.296333140941632
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "scala-en",
+	"task": "linguistic-acceptability",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"mcc": 0.1322334377630526,
+				"macro_f1": 0.5481059126767164
+			},
+			{
+				"mcc": 0.3280802298518049,
+				"macro_f1": 0.6638778625954198
+			},
+			{
+				"mcc": 0.21568627450980394,
+				"macro_f1": 0.607843137254902
+			},
+			{
+				"mcc": 0.31722063428725769,
+				"macro_f1": 0.6536924306708479
+			},
+			{
+				"mcc": 0.09524719499568955,
+				"macro_f1": 0.5453371221906485
+			},
+			{
+				"mcc": 0.30139920735135819,
+				"macro_f1": 0.63068431286458
+			},
+			{
+				"mcc": 0.16180395064015183,
+				"macro_f1": 0.5801799316443668
+			},
+			{
+				"mcc": 0.2263182597399162,
+				"macro_f1": 0.6115683479700216
+			},
+			{
+				"mcc": 0.2033982049954206,
+				"macro_f1": 0.5976501106279087
+			},
+			{
+				"mcc": 0.2592230350848087,
+				"macro_f1": 0.6284470246734397
+			}
+		],
+		"total": {
+			"test_mcc": 22.406104292192646,
+			"test_mcc_se": 4.894321627985603,
+			"test_macro_f1": 60.67386193168851,
+			"test_macro_f1_se": 2.4907902886042345
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "squad",
+	"task": "reading-comprehension",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"f1": 82.68941164767159,
+				"em": 70.05988023952097
+			},
+			{
+				"f1": 85.5208773264277,
+				"em": 73.49397590361446
+			},
+			{
+				"f1": 86.1868102848495,
+				"em": 74.54545454545455
+			},
+			{
+				"f1": 82.72948824463977,
+				"em": 72.72727272727274
+			},
+			{
+				"f1": 84.2767145665309,
+				"em": 72.12121212121213
+			},
+			{
+				"f1": 78.90277887467846,
+				"em": 66.24203821656052
+			},
+			{
+				"f1": 81.77898234579122,
+				"em": 66.46341463414635
+			},
+			{
+				"f1": 83.55022075712536,
+				"em": 69.81132075471699
+			},
+			{
+				"f1": 79.46378039852304,
+				"em": 68.125
+			},
+			{
+				"f1": 85.42405579170284,
+				"em": 75.0
+			}
+		],
+		"total": {
+			"test_f1": 83.05231202379403,
+			"test_f1_se": 1.5356057925473484,
+			"test_em": 70.85895691424988,
+			"test_em_se": 1.9882494739007948
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "cnn-dailymail",
+	"task": "summarization",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"bertscore": 0.6858322704210877,
+				"rouge_l": 0.2062034383313684
+			},
+			{
+				"bertscore": 0.686343872686848,
+				"rouge_l": 0.2129543476745226
+			},
+			{
+				"bertscore": 0.6819700193591416,
+				"rouge_l": 0.20083515619167936
+			},
+			{
+				"bertscore": 0.6901805037632585,
+				"rouge_l": 0.2103356044883792
+			},
+			{
+				"bertscore": 0.6848723636940122,
+				"rouge_l": 0.2077149809778135
+			},
+			{
+				"bertscore": 0.6863006681669504,
+				"rouge_l": 0.2104465151645179
+			},
+			{
+				"bertscore": 0.6855689489748329,
+				"rouge_l": 0.21194222182632925
+			},
+			{
+				"bertscore": 0.6890118746086955,
+				"rouge_l": 0.2106041146117423
+			},
+			{
+				"bertscore": 0.6849637490231544,
+				"rouge_l": 0.21186057987618696
+			},
+			{
+				"bertscore": 0.6918562091886997,
+				"rouge_l": 0.22103785663101095
+			}
+		],
+		"total": {
+			"test_bertscore": 68.66900479886681,
+			"test_bertscore_se": 0.1790303046849482,
+			"test_rouge_l": 21.039348157735508,
+			"test_rouge_l_se": 0.32043630321345609
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "mmlu",
+	"task": "knowledge",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"mcc": 0.346077603707115,
+				"accuracy": 0.5078125
+			},
+			{
+				"mcc": 0.3531994778489847,
+				"accuracy": 0.51953125
+			},
+			{
+				"mcc": 0.4539200842557198,
+				"accuracy": 0.5859375
+			},
+			{
+				"mcc": 0.38789576445802978,
+				"accuracy": 0.53515625
+			},
+			{
+				"mcc": 0.3921343330158885,
+				"accuracy": 0.54296875
+			},
+			{
+				"mcc": 0.36834375218872308,
+				"accuracy": 0.53515625
+			},
+			{
+				"mcc": 0.35294969640960058,
+				"accuracy": 0.51171875
+			},
+			{
+				"mcc": 0.30197395141011726,
+				"accuracy": 0.47265625
+			},
+			{
+				"mcc": 0.3918744725404185,
+				"accuracy": 0.54296875
+			},
+			{
+				"mcc": 0.29825014020899429,
+				"accuracy": 0.4765625
+			}
+		],
+		"total": {
+			"test_mcc": 36.46619276043591,
+			"test_mcc_se": 2.8455565841312699,
+			"test_accuracy": 52.3046875,
+			"test_accuracy_se": 2.0778723347862688
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "hellaswag",
+	"task": "common-sense-reasoning",
+	"dataset_languages": [
+		"en"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"mcc": 0.3345392060016482,
+				"accuracy": 0.453125
+			},
+			{
+				"mcc": 0.2599387044817538,
+				"accuracy": 0.39453125
+			},
+			{
+				"mcc": 0.27816095524205605,
+				"accuracy": 0.40234375
+			},
+			{
+				"mcc": 0.3510781177104222,
+				"accuracy": 0.48046875
+			},
+			{
+				"mcc": 0.247954895641369,
+				"accuracy": 0.3984375
+			},
+			{
+				"mcc": 0.3132828163867401,
+				"accuracy": 0.44921875
+			},
+			{
+				"mcc": 0.28411017078434505,
+				"accuracy": 0.41015625
+			},
+			{
+				"mcc": 0.3301334194483741,
+				"accuracy": 0.43359375
+			},
+			{
+				"mcc": 0.31297195022446408,
+				"accuracy": 0.4140625
+			},
+			{
+				"mcc": 0.3399556003837929,
+				"accuracy": 0.46875
+			}
+		],
+		"total": {
+			"test_mcc": 30.521258363049659,
+			"test_mcc_se": 2.2080761757566855,
+			"test_accuracy": 43.046875,
+			"test_accuracy_se": 1.91932955868999
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
+{
+	"dataset": "speed",
+	"task": "speed",
+	"dataset_languages": [
+		"ab",
+		"aa",
+		"af",
+		"sq",
+		"am",
+		"ar",
+		"an",
+		"hy",
+		"as",
+		"av",
+		"ae",
+		"ay",
+		"az",
+		"bm",
+		"ba",
+		"eu",
+		"be",
+		"bn",
+		"bi",
+		"bs",
+		"br",
+		"bg",
+		"my",
+		"ca",
+		"ch",
+		"ce",
+		"ny",
+		"zh",
+		"cu",
+		"cv",
+		"kw",
+		"co",
+		"cr",
+		"hr",
+		"cs",
+		"da",
+		"dv",
+		"nl",
+		"dz",
+		"en",
+		"eo",
+		"et",
+		"ee",
+		"fo",
+		"fj",
+		"fi",
+		"fr",
+		"fy",
+		"ff",
+		"gd",
+		"gl",
+		"lg",
+		"ka",
+		"de",
+		"el",
+		"kl",
+		"gn",
+		"gu",
+		"ht",
+		"ha",
+		"he",
+		"hz",
+		"hi",
+		"ho",
+		"hu",
+		"is",
+		"io",
+		"ig",
+		"id",
+		"ia",
+		"ie",
+		"iu",
+		"ik",
+		"ga",
+		"it",
+		"ja",
+		"kn",
+		"kr",
+		"ks",
+		"kk",
+		"km",
+		"ki",
+		"rw",
+		"ky",
+		"kv",
+		"kg",
+		"ko",
+		"kj",
+		"ku",
+		"lo",
+		"la",
+		"lv",
+		"li",
+		"ln",
+		"lt",
+		"lu",
+		"lb",
+		"mk",
+		"mg",
+		"ms",
+		"ml",
+		"mt",
+		"gv",
+		"mi",
+		"mr",
+		"mh",
+		"mn",
+		"na",
+		"nv",
+		"nd",
+		"nr",
+		"ng",
+		"ne",
+		"no",
+		"nb",
+		"nn",
+		"ii",
+		"oc",
+		"oj",
+		"or",
+		"om",
+		"os",
+		"pi",
+		"ps",
+		"fa",
+		"pl",
+		"pt",
+		"pa",
+		"qu",
+		"ro",
+		"rm",
+		"rn",
+		"ru",
+		"se",
+		"sm",
+		"sg",
+		"sa",
+		"sc",
+		"sr",
+		"sn",
+		"sd",
+		"si",
+		"sk",
+		"sl",
+		"so",
+		"st",
+		"es",
+		"su",
+		"sw",
+		"ss",
+		"sv",
+		"tl",
+		"ty",
+		"tg",
+		"ta",
+		"tt",
+		"te",
+		"th",
+		"bo",
+		"ti",
+		"to",
+		"ts",
+		"tn",
+		"tr",
+		"tk",
+		"tw",
+		"ug",
+		"uk",
+		"ur",
+		"uz",
+		"ve",
+		"vi",
+		"vo",
+		"wa",
+		"cy",
+		"wo",
+		"xh",
+		"yi",
+		"yo",
+		"za",
+		"zu"
+	],
+	"model": "robinsmits/Schaapje-2B-Chat-V1.0",
+	"results": {
+		"raw": [
+			{
+				"test_speed": 647.52,
+				"test_speed_short": 74.8
+			},
+			{
+				"test_speed": 1195.68,
+				"test_speed_short": 139.8
+			},
+			{
+				"test_speed": 1584.61,
+				"test_speed_short": 269.12
+			},
+			{
+				"test_speed": 2048.4900000000004,
+				"test_speed_short": 333.36
+			},
+			{
+				"test_speed": 2299.0499999999999,
+				"test_speed_short": 397.75
+			},
+			{
+				"test_speed": 2488.11,
+				"test_speed_short": 520.98
+			},
+			{
+				"test_speed": 2862.53,
+				"test_speed_short": 584.32
+			},
+			{
+				"test_speed": 3023.79,
+				"test_speed_short": 646.81
+			},
+			{
+				"test_speed": 3142.38,
+				"test_speed_short": 709.8
+			},
+			{
+				"test_speed": 3182.54,
+				"test_speed_short": 770.95
+			}
+		],
+		"total": {
+			"test_speed": 2247.4700000000004,
+			"test_speed_se": 541.1965879490306,
+			"test_speed_short": 444.76899999999997,
+			"test_speed_short_se": 148.71007864882089
+		}
+	},
+	"num_model_parameters": 2533531648,
+	"max_sequence_length": 4096,
+	"vocabulary_size": 49155,
+	"generative": true,
+	"few_shot": true,
+	"validation_split": true,
+	"scandeval_version": "14.2.0"
+}
